@@ -74,5 +74,8 @@ Identifier 'b' has already been declared
 Note: Arrow functions also follow the same scope and variable shadowing rule.
 
 
+Dead Zone:
+The let and const variables exist in the Dead Zone from the start of their enclosing scope until they are declared.
 
+You could also say that the variables exist in the Dead Zone from the place when the variable gets bound to the scope it's inside until it is declared. 
 
